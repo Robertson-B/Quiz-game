@@ -10,7 +10,7 @@ with open(file_path, mode='r') as file:
     for row in csv_reader:
         question = row[0]
         correct_answer = row[1]
-        wrong_answers = row[2:]
+        wrong_answers = [answer for answer in row[2:] if answer]  # Filter out empty strings
         questions.append((question, correct_answer, wrong_answers))
 
 score = 0
@@ -22,11 +22,11 @@ for question, correct_answer, wrong_answers in questions:
     
     print(question)
     for i, answer in enumerate(answers):
-        print(f'{i + 1}) {answer}')
+        print(f'{i + 1}) {answer}') #This was fun to figure out how to do
     
     user_answer = input('Enter the number of the correct answer: ')
     
-    if answers[int(user_answer) - 1] == correct_answer:
+    if answers[int(user_answer) - 1] == correct_answer: # because lists start at zero not one
         score += 1
         print('Correct!')
     else:
