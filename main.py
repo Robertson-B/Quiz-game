@@ -13,6 +13,7 @@ catagories = {
 }
 catagory = "Star Wars"
 
+
 def main():
     os.system('cls||clear') # Clear the console for any system including stupid macs
     file_path = 'questions.csv'
