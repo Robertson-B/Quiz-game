@@ -3,8 +3,14 @@ import random
 import os
 import pygame # Music
 import threading # A "very simple" way to make a timer
-from terminaltexteffects.effects.effect_blackhole import Blackhole # Cool into text effect
+from terminaltexteffects.effects.effect_blackhole import Blackhole # Cool intro text effect
 
+catagories = {
+    'General Knowledge': {'s_line': 1, 'e_line': 8,},
+    'Classmates': {'s_line': 10, 'e_line': 12,},
+    'The inner machinations of my mind': {'s_line': 14, 'e_line': 15,},
+}
+catagory = "The inner machinations of my mind"
 
 def main():
     os.system('cls||clear') # Clear the console for any system including stupid macs
@@ -17,11 +23,13 @@ def read_questions(file_path):
     with open(file_path, mode='r') as file:
         csv_reader = csv.reader(file)
         score = 0
-        for row in csv_reader:
-            question = row[0]
-            correct_answer = row[1]
-            wrong_answers = [answer for answer in row[2:] if answer]  # Filter out empty strings
-            questions.append((question, correct_answer, wrong_answers))
+        for line_number, row in enumerate(csv_reader):
+            if catagories[catagory]["s_line"] <= line_number <= catagories[catagory]["e_line"]:  # Specify the line numbers you want to read (1-based index)
+                question = row[0]
+                correct_answer = row[1]
+                wrong_answers = [answer for answer in row[2:] if answer]  # Filter out empty strings
+                questions.append((question, correct_answer, wrong_answers))
+                #random.shuffle(questions)
     # Ask the questions
     for question, correct_answer, wrong_answers in questions: # Why the hell did I do it this way?
         answers = wrong_answers + [correct_answer]
