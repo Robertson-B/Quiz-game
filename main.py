@@ -29,11 +29,12 @@ def read_questions(file_path):
                 correct_answer = row[1]
                 wrong_answers = [answer for answer in row[2:] if answer]  # Filter out empty strings
                 questions.append((question, correct_answer, wrong_answers))
-                #random.shuffle(questions)
+                random.shuffle(questions) # Shuffle the questions so they aren't in order
+                
     # Ask the questions
     for question, correct_answer, wrong_answers in questions: # Why the hell did I do it this way?
         answers = wrong_answers + [correct_answer]
-        random.shuffle(answers)
+        random.shuffle(answers) # Shuffle the answers so the correct one isn't always last
         print(question)
         for i, answer in enumerate(answers):
             print(f'{i + 1}) {answer}') # This was fun to figure out how to do
