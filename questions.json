@@ -1,0 +1,120 @@
+{
+    "General Knowledge": [
+        {
+            "question": "What is the capital of France?",
+            "correct_answer": "Paris",
+            "wrong_answers": ["London", "Beijing", "Madrid"]
+        },
+        {
+            "question": "What is the capital of the United States?",
+            "correct_answer": "Washington D.C.",
+            "wrong_answers": ["New York", "Los Angeles", "Chicago"]
+        },
+        {
+            "question": "Who wrote 'Romeo and Juliet'?",
+            "correct_answer": "William Shakespeare",
+            "wrong_answers": ["Charles Dickens", "Jane Austen", "Stephen King"]
+        },
+        {
+            "question": "What is the largest planet in our solar system?",
+            "correct_answer": "Jupiter",
+            "wrong_answers": ["Saturn", "Neptune", "Earth"]
+        },
+        {
+            "question": "What is the chemical symbol for water?",
+            "correct_answer": "H2O",
+            "wrong_answers": ["CO2", "NaCl", "HCl"]
+        },
+        {
+            "question": "Who is the smartest person in the class?",
+            "correct_answer": "Benjamin Robertson",
+            "wrong_answers": ["Roman Bleyer", "Angus Briscoe", "Fin Peters", "Mr Fong"]
+        },
+        {
+            "question": "What is the process by which plants make their energy?",
+            "correct_answer": "Photosynthesis",
+            "wrong_answers": ["Respiration", "Decomposition", "Fermentation"]
+        },
+        {
+            "question": "What is the capital of Australia?",
+            "correct_answer": "Canberra",
+            "wrong_answers": ["Sydney", "Melbourne", "Brisbane"]
+        }
+    ],
+    "Classmates": [
+        {
+            "question": "Who is the White Gremlin?",
+            "correct_answer": "Roman Bleyer",
+            "wrong_answers": ["Angus Briscoe", "Fin Peters", "Mr Fong"]
+        },
+        {
+            "question": "Who loves the weirest music?",
+            "correct_answer": "Fin Peters",
+            "wrong_answers": ["Angus Briscoe", "Roman Bleyer", "Mr Fong"]
+        },
+        {
+            "question": "Who is the best at MTG?",
+            "correct_answer": "Benjamin Robertson",
+            "wrong_answers": ["Angus Briscoe", "Fin Peters", "Roman Bleyer"]
+        }
+    ],
+    "The inner machinations of my mind": [
+        {
+            "question": "What is the meaning of life?",
+            "correct_answer": "42",
+            "wrong_answers": ["To be happy", "To be successful", "To be rich"]
+        },
+        {
+            "question": "What is the greatest achievement in human history?",
+            "correct_answer": "The Moon Landing",
+            "wrong_answers": ["The Invention of the Internet", "The Invention of the Wheel", "The Invention of the Lightbulb"]
+        }
+    ],
+    "Star Wars": [
+        {
+            "question": "Who began the rule of two?",
+            "correct_answer": "Darth Bane",
+            "wrong_answers": ["Darth Vader", "Darth Sidious", "Darth Plagueis"]
+        },
+        {
+            "question": "Who is the first mandolorian Jedi?",
+            "correct_answer": "Tarre Vizsla",
+            "wrong_answers": ["Pre Vizla", "Sabine Wren", "Din Djarin"]
+        },
+        {
+            "question": "What it the name of the entity trapped in the Maw?",
+            "correct_answer": "Abeloth",
+            "wrong_answers": ["The Father", "Darth Nihilus", "Exar Kun"]
+        },
+        {
+            "question": "Who is the most powerful Sith Lord?",
+            "correct_answer": "Darth Sidious",
+            "wrong_answers": ["Darth Vader", "Darth Plagueis", "Darth Bane"]
+        },
+        {
+            "question": "Who was the greatest tactician in the imperial navy?",
+            "correct_answer": "Grand Admiral Thrawn",
+            "wrong_answers": ["Grand Moff Tarkin", "Darth Vader", "Admiral Yularen"]
+        },
+        {
+            "question": "Who was the secret apprentice of Darth Vader?",
+            "correct_answer": "Starkiller",
+            "wrong_answers": ["Asajj Ventress", "Ahsoka Tano", "Ezra Bridger"]
+        },
+        {
+            "question": "Who was the 1st member of the Clone Force 99 to die?",
+            "correct_answer": "Tech",
+            "wrong_answers": ["Wrecker", "Crosshair", "Hunter"]
+        },
+        {
+            "question": "Who was the commander of the Star Corps Company?",
+            "correct_answer": "Commander Bly",
+            "wrong_answers": ["Captain Rex", "Commander Cody", "Captain Thorn"]
+        },
+        {
+            "question": "Who is the true sith?",
+            "correct_answer": "Jar-Jar Binks",
+            "wrong_answers": ["Kylo Ren", "Snoke", "Venamis"]
+        }
+    ]
+}
