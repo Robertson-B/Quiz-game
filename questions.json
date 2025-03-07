@@ -68,6 +68,11 @@
             "question": "What is the greatest achievement in human history?",
             "correct_answer": "The Moon Landing",
             "wrong_answers": ["The Invention of the Internet", "The Invention of the Wheel", "The Invention of the Lightbulb"]
+        },
+        {
+            "question": "What is the most important thing in life?",
+            "correct_answer": "To be happy",
+            "wrong_answers": ["To be successful", "To be rich", "To be famous"]
         }
     ],
     "Star Wars": [
