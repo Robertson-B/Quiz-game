@@ -11,10 +11,9 @@ def main():
     os.system('cls||clear') # Clear the console for any system including stupid macs
     file_path = 'questions.json'
     questions_dict = read_json.read_questions(file_path)
+    intro.intro()
     ask_catagory.fetch_catagories(questions_dict)
     ask_catagory.ask_catagory()
     ask_questions.ask_questions(questions_dict)
-    #intro.intro() # This is the intro text effect
-
 
 main()
