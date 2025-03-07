@@ -1,5 +1,7 @@
 import random
 import ask_catagory
+import type
+
 
 def ask_questions(questions_dict): # Asks the questions
     questions = questions_dict[ask_catagory.catagory]
@@ -21,17 +23,17 @@ def ask_questions(questions_dict): # Asks the questions
             if user_answer.isdigit() and 1 <= int(user_answer) <= len(answers):
                 break
             else:
-                print('Invalid input. Please enter a number between 1 and', len(answers))
+                type.type('Invalid input. Please enter a number between 1 and ' + str(len(answers)))
 
         if answers[int(user_answer) - 1] == correct_answer: # Because lists start at zero not one
             score += 1
-            print('\nCorrect!\n')
+            type.type('\nCorrect!\n')
         else:
-            print(f'\nWrong! The correct answer was: {correct_answer}\n')
+            type.type('\nWrong! The correct answer was: ' + str(correct_answer) + "\n")
 
     if score == len(questions): # Print user score
-        print(f'\nYour final score is: {score}/{len(questions)}')
-        print('Congratulations! You got all the questions right!\n\n\n')
+        type.type('\nYour final score is: ' + str(score) + "/" + str(len(questions)))
+        type.type('Congratulations! You got all the questions right!\n\n\n')
     else:
-        print(f'\nYour final score is: {score}/{len(questions)}')
-        print('Better luck next time!\n\n\n')
+        type.type('\nYour final score is: ' + str(score) + "/" + str(len(questions)))
+        type.type('Better luck next time!\n\n\n')
