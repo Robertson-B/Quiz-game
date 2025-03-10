@@ -5,13 +5,14 @@ import read_json
 import intro
 import ask_questions
 import os
-
+import music
 
 def main():
     os.system('cls||clear') # Clear the console for any system including stupid macs
     file_path = 'questions.json'
     questions_dict = read_json.read_questions(file_path)
-    #intro.intro()
+    intro.intro()
+    music.main_music()
     ask_catagory.fetch_catagories(questions_dict)
     ask_catagory.ask_catagory()
     ask_questions.ask_questions(questions_dict)

@@ -3,6 +3,7 @@ from terminaltexteffects.effects.effect_blackhole import Blackhole # Cool intro 
 import time
 import sys
 import type
+import music
 
 
 
@@ -29,6 +30,7 @@ def loading():
     print("")
     
 def intro():
+    music.loading_music()
     loading()
     cool_title()
     name = type.typewriter_input("Enter your name: ") 

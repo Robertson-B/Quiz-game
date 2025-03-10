@@ -1,5 +1,6 @@
 import type
 
+
 def fetch_catagories(questions_dict):
     global catagories
     catagories = {category: questions for category, questions in questions_dict.items()}
