@@ -1,6 +1,5 @@
 # This is the main file that will run the entire program
 import pygame # Music
-import threading # A "very simple" way to make a timer
 import ask_catagory
 import read_json
 import intro

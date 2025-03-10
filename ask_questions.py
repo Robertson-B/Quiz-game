@@ -1,34 +1,50 @@
 import random
 import ask_catagory
 import type
-
+import threading
 
 def ask_questions(questions_dict): # Asks the questions
     questions = questions_dict[ask_catagory.catagory]
     random.shuffle(questions)
     score = 0
 
+    def timer():
+        global time_up
+        time_up = True
+        type.type("\n\nTime's up! Press enter to continue.")
+
     for question_data in questions:
+        global time_up
         question = question_data['question']
         correct_answer = question_data['correct_answer']
         wrong_answers = question_data['wrong_answers']
         answers = wrong_answers + [correct_answer]
         random.shuffle(answers)
-        print(question)
+        type.type(question)
         for i, answer in enumerate(answers):
-            print(f'{i + 1}) {answer}') # This was fun to figure out how to do
+            type.type(f'{i + 1}) {answer}') # This was fun to figure out how to do
+
+        time_up = False
+        timer_thread = threading.Timer(10.0, timer)
+        timer_thread.start()
 
         while True: # Makes sure the input is valid
-            user_answer = input('Enter the number of the correct answer: ').strip()
-            if user_answer.isdigit() and 1 <= int(user_answer) <= len(answers):
+            user_answer = type.typewriter_input('Enter the number of the correct answer: ').strip()
+            if time_up:
+                print("\u001b[34m\u001b[0m", end="")
+                break
+            elif user_answer.isdigit() and 1 <= int(user_answer) <= len(answers):
+                timer_thread.cancel()
+                print("\u001b[34m\u001b[0m", end="")
                 break
             else:
+                print("\u001b[34m\u001b[0m", end="")
                 type.type('Invalid input. Please enter a number between 1 and ' + str(len(answers)))
 
-        if answers[int(user_answer) - 1] == correct_answer: # Because lists start at zero not one
+        if not time_up and answers[int(user_answer) - 1] == correct_answer: # Because lists start at zero not one
             score += 1
             type.type('\nCorrect!\n')
-        else:
+        elif not time_up:
             type.type('\nWrong! The correct answer was: ' + str(correct_answer) + "\n")
 
     if score == len(questions): # Print user score
