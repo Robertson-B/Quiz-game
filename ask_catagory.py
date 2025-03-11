@@ -1,11 +1,8 @@
 import type
 
-
-def fetch_catagories(questions_dict):
+def ask_catagory(questions_dict):
     global catagories
     catagories = {category: questions for category, questions in questions_dict.items()}
-
-def ask_catagory():
     global catagory
     type.type("Please select a catagory:")
     for i, catagory_name in enumerate(catagories.keys(), 1):
