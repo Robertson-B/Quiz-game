@@ -2,13 +2,13 @@ import time
 import sys
 from terminaltexteffects.effects.effect_slide import Slide
 
-def type(text):
+def type(text, delay=0.04):
     for char in text:
-        time.sleep(0.04)
+        time.sleep(delay)
         sys.stdout.write(char)
         sys.stdout.flush()
     print("")
-    
+
 def typewriter_input(prompt_text: str) -> str:
     effect = Slide(prompt_text)
     effect.effect_config.final_gradient_frames = 1
@@ -17,4 +17,4 @@ def typewriter_input(prompt_text: str) -> str:
         for frame in effect:
             terminal.print(frame)
     # Capture user input
-    return input().lower().strip()
+    return input().strip()

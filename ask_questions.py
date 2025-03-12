@@ -2,6 +2,7 @@ import random
 import ask_catagory
 import type
 import threading
+import sys
 
 def ask_questions(questions_dict): # Asks the questions
     questions = questions_dict[ask_catagory.catagory]
@@ -20,9 +21,9 @@ def ask_questions(questions_dict): # Asks the questions
         wrong_answers = question_data['wrong_answers']
         answers = wrong_answers + [correct_answer]
         random.shuffle(answers)
-        type.type(question)
+        type.type("\u001b[32m" + question)
         for i, answer in enumerate(answers):
-            type.type(f'{i + 1}) {answer}') # This was fun to figure out how to do
+            type.type(f'\u001b[33m{i + 1}) \u001b[34m{answer}') # This was fun to figure out how to do
 
         time_up = False
         timer_thread = threading.Timer(10.0, timer)
@@ -39,13 +40,15 @@ def ask_questions(questions_dict): # Asks the questions
                 break
             else:
                 print("\u001b[34m\u001b[0m", end="")
-                type.type('Invalid input. Please enter a number between 1 and ' + str(len(answers)))
+                if not time_up:
+                    type.type('Invalid input. Please enter a number between 1 and ' + str(len(answers)))
 
         if not time_up and answers[int(user_answer) - 1] == correct_answer: # Because lists start at zero not one
             score += 1
-            type.type('\nCorrect!\n')
+            type.type('\n\u001b[32mCorrect!\n')
         elif not time_up:
-            type.type('\nWrong! The correct answer was: ' + str(correct_answer) + "\n")
+            type.type('\n\u001b[31;1mWrong! The correct answer was: ' + str(correct_answer) + "\n")
+            print("\u001b[34m\u001b[0m", end="")
 
     if score == len(questions): # Print user score
         type.type('\nYour final score is: ' + str(score) + "/" + str(len(questions)))
