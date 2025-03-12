@@ -4,23 +4,31 @@ import type
 import threading
 
 output_lock = threading.Lock()
+max_score = 0
 
 def ask_questions(questions_dict): # Asks the questions
     questions = questions_dict[ask_catagory.catagory]
     random.shuffle(questions)
     score = 0
+    global max_score
+    max_score = 0
 
     def timer():
         global time_up
+        global max_score
         time_up = True
         with output_lock:
+            max_score += 1
             type.type("\n\nTime's up! Press enter to continue.")
+            print("\u001b[34m\u001b[0m", end="")
+            type.type("\u001b[32mThe correct answer was: " + str(correct_answer) + "")
+            type.type("\n\u001b[32mYour score is: " + str(score) + "/" + str(max_score) + "\n")
 
-    for question_data in questions:
+    for i in questions:
         global time_up
-        question = question_data['question']
-        correct_answer = question_data['correct_answer']
-        wrong_answers = question_data['wrong_answers']
+        question = i['question']
+        correct_answer = i['correct_answer']
+        wrong_answers = i['wrong_answers']
         answers = wrong_answers + [correct_answer]
         random.shuffle(answers)
         with output_lock:
@@ -53,10 +61,14 @@ def ask_questions(questions_dict): # Asks the questions
         with output_lock:
             if not time_up and answers[int(user_answer) - 1] == correct_answer: # Because lists start at zero not one
                 score += 1
-                type.type('\n\u001b[32mCorrect!\n')
+                max_score += 1
+                type.type('\n\u001b[32mCorrect!')
+                type.type("Your score is: " + str(score) + "/" + str(max_score) + "\n")
             elif not time_up:
-                type.type('\n\u001b[31;1mWrong! The correct answer was: ' + str(correct_answer) + "\n")
+                max_score += 1
+                type.type('\n\u001b[31;1mWrong! The correct answer was: ' + str(correct_answer))
                 print("\u001b[34m\u001b[0m", end="")
+                type.type("\u001b[32mYour score is: " + str(score) + "/" + str(max_score) + "\n")
 
     with output_lock:
         if score == len(questions): # Print user score
