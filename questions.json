@@ -1,5 +1,5 @@
 {
-    "General Knowledge": [
+    "General Knowledge Easy": [
         {
             "question": "What is the capital of France?",
             "correct_answer": "Paris",
@@ -21,14 +21,14 @@
             "wrong_answers": ["Saturn", "Neptune", "Earth"]
         },
         {
-            "question": "What is the chemical symbol for water?",
+            "question": "What is the chemical equation for water?",
             "correct_answer": "H2O",
             "wrong_answers": ["CO2", "NaCl", "HCl"]
         },
         {
-            "question": "Who is the smartest person in the class?",
-            "correct_answer": "Benjamin Robertson",
-            "wrong_answers": ["Roman Bleyer", "Angus Briscoe", "Fin Peters", "Mr Fong"]
+            "question": "Which physicist developed the theory of special relativity?",
+            "correct_answer": "Albert Einstein",
+            "wrong_answers": ["Steven Hawking", "Nikola Tesla", "Isaac Newton", "Jesus Christ"]
         },
         {
             "question": "What is the process by which plants make their energy?",
@@ -39,6 +39,68 @@
             "question": "What is the capital of Australia?",
             "correct_answer": "Canberra",
             "wrong_answers": ["Sydney", "Melbourne", "Brisbane"]
+        },
+        {
+            "question": "What is the name of the highest mountain outside of Asia?",
+            "correct_answer": "Aconcagua",
+            "wrong_answers": ["Kilimanjaro", "Elbrus", "Denali"]
+        },
+        {
+            "question": "What is the largest country in the world?",
+            "correct_answer": "Russia",
+            "wrong_answers": ["Canada", "China", "United States"]
+        }
+    ],
+    "General Knowledge Hard": [
+        {
+            "question": "Which ancient civilization built the underground aqueducts known as Qanats?",
+            "correct_answer": "Persians",
+            "wrong_answers": ["Romans", "Egyptians", "Greeks"]
+        },
+        {
+            "question": "In what year was the last confirmed sighting of the dodo?",
+            "correct_answer": "1662",
+            "wrong_answers": ["1863", "1720", "1596"]
+        },
+        {
+            "question": "Which mathematician is credited with the invention of set theory?",
+            "correct_answer": "Georg Cantor",
+            "wrong_answers": ["Kurt Gödel", "Henri Poincaré", "Bertrand Russell"]
+        },
+        {
+            "question": "What is the rarest naturally occurring element in Earth's crust?",
+            "correct_answer": "Astatine",
+            "wrong_answers": ["Uranium", "Einsteinium", "Promethium"]
+        },
+        {
+            "question": "Which philosopher is known for the quote, 'I think, therefore I am'?",
+            "correct_answer": "René Descartes",
+            "wrong_answers": ["Immanuel Kant", "Friedrich Nietzsche", "Aristotle"]
+        },
+        {
+            "question": "What is the term for a word or phrase that reads the same backward and forward, ignoring spaces and punctuation?",
+            "correct_answer": "Palindrome",
+            "wrong_answers": ["Anagram", "Pangram", "Kangaroo Word"]
+        },
+        {
+            "question": "The 'Pillars of Hercules' is an ancient name for which modern-day geographical feature?",
+            "correct_answer": "The Strait of Gibraltar",
+            "wrong_answers": ["The Bosporus Strait", "The Panama Canal", "The Suez Canal"]
+        },
+        {
+            "question": "The Fermi Paradox deals with which scientific mystery?",
+            "correct_answer": "The lack of detected extraterrestrial civilizations",
+            "wrong_answers": ["The expansion of the universe", "The existence of dark matter", "The relationship between energy and mass"]
+        },
+        {
+            "question": "The monster group, a mathematical structure with 808017424794512875886459904961710757005754368000000000 (=8x10^53) elements, is connected to which area of theoretical physics?",
+            "correct_answer": "String theory",
+            "wrong_answers": ["Quantum chromodynamics", "Black hole thermodynamics", "The AdS/CFT correspondence", "Trick question, it's not connected to any area of theoretical physics"]
+        },
+        {
+            "question": "What is the fundamental difference between a classical bit and a quantum bit?",
+            "correct_answer": "A qubit can exist in a superposition of both 0 and 1 states until measured",
+            "wrong_answers": ["A qubit has infinite possible states instead of just two", "A qubit can only be used for encryption, not computation", "A qubit is always entangled with other qubits"]
         }
     ],
     "Classmates": [
@@ -177,6 +239,11 @@
         }
     ],
     "Literature": [
+        {
+            "question": "In which language was the epic poem Beowulf originally written?",
+            "correct_answer": "Old English",
+            "wrong_answers": ["Norse", "Latin", "Greek"]
+        },
         {
             "question": "Who wrote '1984'?",
             "correct_answer": "George Orwell",
