@@ -12,17 +12,17 @@ import sys
 def main():
     file_path = 'questions.json'
     questions_dict = read_json.read_questions(file_path)
-    intro.intro()
+    player_name = intro.intro()
     #music.main_music()
-    play_game(questions_dict)
+    play_game(questions_dict, player_name)
 
 
-def play_game(questions_dict):
+def play_game(questions_dict, player_name):
     game_loop = True
     while game_loop == True:
         os.system('cls||clear') # Clear the console for any system including stupid macs
         ask_catagory.ask_catagory(questions_dict)
-        ask_questions.ask_questions(questions_dict)
+        ask_questions.ask_questions(questions_dict, player_name)
         type.type("\u001b[32mDo you want to play again?")
         type.type("\u001b[33m1) \u001b[34mYes")
         type.type("\u001b[33m2) \u001b[34mNo")

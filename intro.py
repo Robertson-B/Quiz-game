@@ -43,7 +43,8 @@ def intro():
     music.loading_music()
     loading()
     cool_title()
-    name = type.typewriter_input("Enter your name: ") 
-    type.type(f"Welcome to the greatest quiz in the world \u001b[34m\u001b[0m{name}")
+    player_name = type.typewriter_input("Enter your name: ") 
+    type.type(f"Welcome to the greatest quiz in the world \u001b[34m\u001b[0m{player_name}")
     time.sleep(2)
     os.system('cls||clear')
+    return player_name

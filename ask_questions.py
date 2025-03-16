@@ -2,11 +2,12 @@ import random
 import ask_catagory
 import type
 import threading
+import time
 
 output_lock = threading.Lock()
 max_score = 0
 
-def ask_questions(questions_dict): # Asks the questions
+def ask_questions(questions_dict, player_name): # Asks the questions
     questions = questions_dict[ask_catagory.catagory]
     random.shuffle(questions)
     score = 0
@@ -22,7 +23,7 @@ def ask_questions(questions_dict): # Asks the questions
             type.type("\n\nTime's up! Press enter to continue.")
             print("\u001b[34m\u001b[0m", end="")
             type.type("\u001b[32mThe correct answer was: " + str(correct_answer) + "")
-            type.type("\n\u001b[32mYour score is: " + str(score) + "/" + str(max_score) + "\n")
+            type.type("\u001b[32mYour score is: " + str(score) + "/" + str(max_score) + "\n")
 
     for i in questions:
         global time_up
@@ -72,8 +73,10 @@ def ask_questions(questions_dict): # Asks the questions
 
     with output_lock:
         if score == len(questions): # Print user score
-            type.type('\nYour final score is: ' + str(score) + "/" + str(len(questions)))
-            type.type('Congratulations! You got all the questions right!\n\n\n')
+            type.type('Your final score is: ' + str(score) + "/" + str(len(questions)))
+            type.type(f'Congratulations {player_name}! You got all the questions right!\n\n\n\n')
+            time.sleep(2)
         else:
             type.type('\nYour final score is: ' + str(score) + "/" + str(len(questions)))
-            type.type('Better luck next time!\n\n\n')
+            type.type(f'Better luck next time {player_name}!\n\n\n\n')
+            time.sleep(2)

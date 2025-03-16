@@ -65,7 +65,7 @@
         {
             "question": "Which mathematician is credited with the invention of set theory?",
             "correct_answer": "Georg Cantor",
-            "wrong_answers": ["Kurt Gödel", "Henri Poincaré", "Bertrand Russell"]
+            "wrong_answers": ["Kurt Godel", "Henri Poincare", "Bertrand Russell"]
         },
         {
             "question": "What is the rarest naturally occurring element in Earth's crust?",
@@ -74,7 +74,7 @@
         },
         {
             "question": "Which philosopher is known for the quote, 'I think, therefore I am'?",
-            "correct_answer": "René Descartes",
+            "correct_answer": "Rene Descartes",
             "wrong_answers": ["Immanuel Kant", "Friedrich Nietzsche", "Aristotle"]
         },
         {
