@@ -386,12 +386,12 @@
             "wrong_answers": ["Charlotte Bronte", "Emily Bronte", "Mary Shelley"]
         },
         {
-            "question": "Which ancient text is considered the world’s oldest surviving epic?",
+            "question": "Which ancient text is considered the world's oldest surviving epic?",
             "correct_answer": "The Epic of Gilgamesh",
             "wrong_answers": ["The Iliad", "The Mahabharata", "The Aeneid"]
         },
         {
-            "question": "In Don Quixote, what is the name of the innkeeper’s daughter who is mistakenly believed to be a noble lady?",
+            "question": "In Don Quixote, what is the name of the innkeeper's daughter who is mistakenly believed to be a noble lady?",
             "correct_answer": "Maritornes",
             "wrong_answers": ["Dulcinea", "Teresa Panza", "Antonia Quijana"]
         },
@@ -495,7 +495,7 @@
             "wrong_answers": ["Thriller", "Bohemian Rhapsody", "Billie Jean"]
         },
         {
-            "question": "Which composer’s final symphony is often called the “Jupiter” Symphony?",
+            "question": "Which composer's final symphony is often called the 'Jupiter' Symphony?",
             "correct_answer": "Mozart",
             "wrong_answers": ["Beethoven", "Bach", "Tchaikovsky"]
         },
