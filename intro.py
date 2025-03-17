@@ -25,9 +25,9 @@ def loading():
         task3 = progress.add_task("[cyan]Preparing Quiz...", total=1000)
 
         while not progress.finished:
-            progress.update(task1, advance=2)
-            progress.update(task2, advance=1.8)
-            progress.update(task3, advance=1.65)
+            progress.update(task1, advance=3)
+            progress.update(task2, advance=2.8)
+            progress.update(task3, advance=2.6)
             time.sleep(0.02)
     time.sleep(1)
     type.type("\n\u001b[33mLoading complete!")
@@ -44,7 +44,7 @@ def intro():
     loading()
     cool_title()
     player_name = type.typewriter_input("Enter your name: ") 
-    type.type(f"Welcome to the greatest quiz in the world \u001b[34m\u001b[0m{player_name}")
+    type.type(f"Welcome to the greatest quiz in the world \u001b[34m\u001b[0m\u001b[32m{player_name}")
     time.sleep(2)
     os.system('cls||clear')
     return player_name

@@ -200,7 +200,7 @@
             "wrong_answers": ["Darth Revan", "Darth Malak", "Darth Malgus"]
         },
         {
-            "question": "Before the formation of the Imperial Remnent, which warlord faction had the largest military presence.?",
+            "question": "Before the formation of the Imperial Remnent, which warlord faction had the largest military presence?",
             "correct_answer": "Pentastar Alignment of Powers",
             "wrong_answers": ["Emperor's Hand", "Zorbak the Hutt", "Greater Malrood"]
         },
@@ -240,7 +240,7 @@
             "wrong_answers": ["Tribacca", "Masbacca", "Senbacca"]
         },
         {
-            "question": "Which Rogue Squadron member would later become a Jedi master",
+            "question": "Which Rogue Squadron member would later become a Jedi master?",
             "correct_answer": "Corran Horn",
             "wrong_answers": ["Megu Sestrum", "Hobbie Kilvan", "Wedge Antilles"]
         },
@@ -280,6 +280,31 @@
             "question": "What gas do plants absorb from the atmosphere?",
             "correct_answer": "Carbon Dioxide",
             "wrong_answers": ["Oxygen", "Nitrogen", "Hydrogen"]
+        },
+        {
+            "question": "What is the only fundamental force that does not have a confirmed quantum particle?",
+            "correct_answer": "Gravity",
+            "wrong_answers": ["Electromagnetism", "Weak Nuclear Force", "Strong Nuclear Force"]
+        },
+        {
+            "question": "What is the smallest unit of matter?",
+            "correct_answer": "Quark",
+            "wrong_answers": ["Atom", "Molecule", "Electron"]
+        },
+        {
+            "question": "What is the largest organ in the human body?",
+            "correct_answer": "Skin",
+            "wrong_answers": ["Liver", "Heart", "Brain"]
+        },
+        {
+            "question": "What type of bond holds together the two strands of DNA?",
+            "correct_answer": "Hydrogen Bond",
+            "wrong_answers": ["Covalent Bond", "Ionic Bond", "Metallic Bond"]
+        },
+        {
+            "question": "What is the name of the hypothetical boundary around a black hole beyond which nothing can escape?",
+            "correct_answer": "Event Horizon",
+            "wrong_answers": ["Singularity", "Ergosphere", "Photon Sphere"]
         }
     ],
     "History": [
@@ -307,6 +332,31 @@
             "question": "Who was known as the Maid of Orleans?",
             "correct_answer": "Joan of Arc",
             "wrong_answers": ["Marie Antoinette", "Catherine the Great", "Elizabeth I"]
+        },
+        {
+            "question": "What was the Zimmermann Telegram, sent during World War I?",
+            "correct_answer": "A German proposal to Mexico to join the war against the U.S",
+            "wrong_answers": ["A British proposal to Germany to end the war", "A French proposal to Russia to end the war", "A Russian proposal to Japan to end the war"]
+        },
+        {
+            "question": "Who led the Haitian Revolution, defeating both the French and Spanish forces?",
+            "correct_answer": "Toussaint Louverture",
+            "wrong_answers": ["Jean-Jacques Dessalines", "Henri Christophe", "Alexandre Petion"]
+        },
+        {
+            "question": "Which battle during the Thirty Years War marked the decline of Habsburg power in Europe?",
+            "correct_answer": "The Battle of Breitenfeld (1631)",
+            "wrong_answers": ["The Battle of Rocroi (1643)", "The Battle of White Mountain (1620)", "The Battle of Lützen (1632)"]
+        },
+        {
+            "question": "Which medieval ruler issued the Capitulary of Quierzy, setting the foundation for hereditary feudal rights?",
+            "correct_answer": "Charles the Bald",
+            "wrong_answers": ["Charlemagne", "Louis the Pious", "Lothair I"]
+        },
+        {
+            "question": "Which empire was the first to implement a professional standing army?",
+            "correct_answer": "The Assyrian Empire",
+            "wrong_answers": ["The Roman Empire", "The Persian Empire", "The Macedonian Empire"]
         }
     ],
     "Literature": [
@@ -321,9 +371,9 @@
             "wrong_answers": ["Aldous Huxley", "Ray Bradbury", "J.R.R. Tolkien"]
         },
         {
-            "question": "Who is the author of 'Harry Potter' series?",
-            "correct_answer": "J.K. Rowling",
-            "wrong_answers": ["J.R.R. Tolkien", "George R.R. Martin", "C.S. Lewis"]
+            "question": "Which Gothic novel includes a character named Gabriel Utterson as the main narrator?",
+            "correct_answer": "Strange Case of Dr Jekyll and Mr Hyde",
+            "wrong_answers": ["Frankenstein", "Dracula", "The Picture of Dorian Gray"]
         },
         {
             "question": "What is the first book of the Bible?",
@@ -336,9 +386,29 @@
             "wrong_answers": ["Charlotte Bronte", "Emily Bronte", "Mary Shelley"]
         },
         {
-            "question": "Who wrote 'The Great Gatsby'?",
-            "correct_answer": "F. Scott Fitzgerald",
-            "wrong_answers": ["Ernest Hemingway", "John Steinbeck", "Mark Twain"]
+            "question": "Which ancient text is considered the world’s oldest surviving epic?",
+            "correct_answer": "The Epic of Gilgamesh",
+            "wrong_answers": ["The Iliad", "The Mahabharata", "The Aeneid"]
+        },
+        {
+            "question": "In Don Quixote, what is the name of the innkeeper’s daughter who is mistakenly believed to be a noble lady?",
+            "correct_answer": "Maritornes",
+            "wrong_answers": ["Dulcinea", "Teresa Panza", "Antonia Quijana"]
+        },
+        {
+            "question": "Which novel features the secretive organization known as 'The Brotherhood'?",
+            "correct_answer": "1984",
+            "wrong_answers": ["Brave New World", "Fahrenheit 451", "Animal Farm"]
+        },
+        {
+            "question": "What novel is narrated by a character named Nick Carraway?",
+            "correct_answer": "The Great Gatsby",
+            "wrong_answers": ["To Kill a Mockingbird", "Catch-22", "Slaughterhouse-Five"]
+        },
+        {
+            "question": "Which Arthurian legend text first introduced the Holy Grail?",
+            "correct_answer": "Perceval, the Story of the Grail",
+            "wrong_answers": ["Le Morte d'Arthur", "The Once and Future King", "The Mabinogion"]
         }
     ],
     "Movies": [
@@ -366,6 +436,31 @@
             "question": "What year was the first 'Harry Potter' movie released?",
             "correct_answer": "2001",
             "wrong_answers": ["1999", "2002", "2003"]
+        },
+        {
+            "question": "In the lego Batman movie, which betting game did Batman give Joker advice about?",
+            "correct_answer": "Roulette",
+            "wrong_answers": ["Blackjack", "Poker", "Craps"]
+        },
+        {
+            "question": "Which film is famous for having an alternate ending where the villain wins, which was later scrapped due to studio pressure?",
+            "correct_answer": "Casablanca ",
+            "wrong_answers": ["Sunset Boulevard", "Psycho", "Double Indemnity"]
+        },
+        {
+            "question": "Which film was the first to reach $1 billion at the global box office?",
+            "correct_answer": "Titanic",
+            "wrong_answers": ["Jurassic Park", "The Lion King", "Star Wars: Episode I - The Phantom Menace"]
+        },
+        {
+            "question": "Who is the only person to have won Oscars for acting, directing, and writing?",
+            "correct_answer": "Orson Welles",
+            "wrong_answers": ["Charlie Chaplin", "Woody Allen", "Clint Eastwood"]   
+        },
+        {
+            "question": "What was the first film to be shot entirely in widescreen Cinemascope?",
+            "correct_answer": "The Robe",
+            "wrong_answers": ["Ben-Hur", "Lawrence of Arabia", "Gone with the Wind"]
         }
     ],
     "Music": [
@@ -393,6 +488,31 @@
             "question": "Who is the lead singer of the band U2?",
             "correct_answer": "Bono",
             "wrong_answers": ["The Edge", "Adam Clayton", "Larry Mullen Jr."]
+        },
+        {
+            "question": "What is the name of the first music video ever played on MTV?",
+            "correct_answer": "Video Killed the Radio Star",
+            "wrong_answers": ["Thriller", "Bohemian Rhapsody", "Billie Jean"]
+        },
+        {
+            "question": "Which composer’s final symphony is often called the “Jupiter” Symphony?",
+            "correct_answer": "Mozart",
+            "wrong_answers": ["Beethoven", "Bach", "Tchaikovsky"]
+        },
+        {
+            "question": "What is the name of the first album released by The Beatles?",
+            "correct_answer": "Please Please Me",
+            "wrong_answers": ["With the Beatles", "A Hard Day's Night", "Help!"]
+        },
+        {
+            "question": "Who is known as the Godfather of Soul?",
+            "correct_answer": "James Brown",
+            "wrong_answers": ["Ray Charles", "Otis Redding", "Sam Cooke"]
+        },
+        {
+            "question": "Which album holds the record for the longest time spent on the Billboard 200 chart?",
+            "correct_answer": "The Dark Side of the Moon",
+            "wrong_answers": ["Thriller", "Abbey road", "Rumours"]
         }
     ]
 }
