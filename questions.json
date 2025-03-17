@@ -103,40 +103,6 @@
             "wrong_answers": ["A qubit has infinite possible states instead of just two", "A qubit can only be used for encryption, not computation", "A qubit is always entangled with other qubits"]
         }
     ],
-    "Classmates": [
-        {
-            "question": "Who is the White Gremlin?",
-            "correct_answer": "Roman Bleyer",
-            "wrong_answers": ["Angus Briscoe", "Fin Peters", "Mr Fong"]
-        },
-        {
-            "question": "Who loves the weirdest music?",
-            "correct_answer": "Fin Peters",
-            "wrong_answers": ["Angus Briscoe", "Roman Bleyer", "Mr Fong"]
-        },
-        {
-            "question": "Who is the best at MTG?",
-            "correct_answer": "Benjamin Robertson",
-            "wrong_answers": ["Angus Briscoe", "Fin Peters", "Roman Bleyer"]
-        }
-    ],
-    "The inner machinations of my mind": [
-        {
-            "question": "What is the meaning of life?",
-            "correct_answer": "42",
-            "wrong_answers": ["To be happy", "To be successful", "To be rich"]
-        },
-        {
-            "question": "What is the greatest achievement in human history?",
-            "correct_answer": "The Moon Landing",
-            "wrong_answers": ["The Invention of the Internet", "The Invention of the Wheel", "The Invention of the Lightbulb"]
-        },
-        {
-            "question": "What is the most important thing in life?",
-            "correct_answer": "To be happy",
-            "wrong_answers": ["To be successful", "To be rich", "To be famous"]
-        }
-    ],
     "Star Wars": [
         {
             "question": "Who began the rule of two?",
@@ -152,11 +118,6 @@
             "question": "What is the name of the entity trapped in the Maw?",
             "correct_answer": "Abeloth",
             "wrong_answers": ["The Father", "Darth Nihilus", "Exar Kun"]
-        },
-        {
-            "question": "Who is the most powerful Sith Lord?",
-            "correct_answer": "Darth Sidious",
-            "wrong_answers": ["Darth Vader", "Darth Plagueis", "Darth Bane"]
         },
         {
             "question": "Who was the greatest tactician in the imperial navy?",
@@ -182,6 +143,116 @@
             "question": "Who is the true Sith?",
             "correct_answer": "Jar-Jar Binks",
             "wrong_answers": ["Kylo Ren", "Snoke", "Venamis"]
+        },
+        {
+            "question": "Who are the extra-galactic species that invaded the star wars galaxy after the fall of the empire?",
+            "correct_answer": "The Youzhan Vong",
+            "wrong_answers": ["The Chiss", "The Ssi-Ruuk", "The Killiks"]
+        },
+        {
+            "question": "What is the name of the assasin sent to kill luke that he ends up marrying?",  
+            "correct_answer": "Mara Jade",
+            "wrong_answers": ["Har Lee Tahno", "Mon Marnmo", "Kyoto Ken"]
+        },
+        {
+            "question": "Who authored the sith code?",
+            "correct_answer": "Sorzus Syn",
+            "wrong_answers": ["Darth Bane", "Darth Revan", "Darth Malgus"]
+        },
+        {
+            "question": "The Trandoshans have a bitter rivalry with which species?",
+            "correct_answer": "Wookies",
+            "wrong_answers": ["Humans", "Chiss", "Zabracks"]
+        },
+        {
+            "question": "What is the full name of Jabba the Hutt?",
+            "correct_answer": "Jabba Desilijic Tiure",
+            "wrong_answers": ["Jabba Illip Oggurobb", "Jabba Injic Ar'duv", "Jabba Besadii Tai"]
+        },
+        {
+            "question": "Which sith lord was the first to take the title of Darth?",
+            "correct_answer": "Darth Andeddu",
+            "wrong_answers": ["Darth Bane", "Darth Baras", "Darth Imor"]
+        },
+        {
+            "question": "Who created the prophets of the dark side?",
+            "correct_answer": "Darth Millenial",
+            "wrong_answers": ["Darth Plagueis", "Darth Maul", "Darth Imor"]
+        },
+        {
+            "question": "Which war lead the Yuuzhan Vong to become the technophobic conquerors they are known as now?",
+            "correct_answer": "The Silentium-Abominor War",
+            "wrong_answers": ["The Chagrian-Cathar War", "The Ithorian-Chiss War", "The Barabel-Killik War"]
+        },
+        {
+            "question": "What was the title given to the head lightsaber instructor in the Jedi temple?",
+            "correct_answer": "Battlemaster",
+            "wrong_answers": ["Master of the Order", "Grandmaster", "Master of the Temple"]
+        },
+        {
+            "question": "Chewbacca was murdured on what planet?",
+            "correct_answer": "Sernpidal",
+            "wrong_answers": ["Kashyyyk", "Endor", "Jakku"]
+        },
+        {
+            "question": "What was Jacen Solo's sith title?",
+            "correct_answer": "Darth Caedus",
+            "wrong_answers": ["Darth Revan", "Darth Malak", "Darth Malgus"]
+        },
+        {
+            "question": "Before the formation of the Imperial Remnent, which warlord faction had the largest military presence.?",
+            "correct_answer": "Pentastar Alignment of Powers",
+            "wrong_answers": ["Emperor's Hand", "Zorbak the Hutt", "Greater Malrood"]
+        },
+        {
+            "question": "Where did Luke rebuild the Jedi order?",
+            "correct_answer": "Yavin IV",
+            "wrong_answers": ["Coruscant", "Jakku", "Tatooine"]
+        },
+        {
+            "question": "What replaced the corrupt, weak New Republic?",
+            "correct_answer": "Galactic Federation of Free Alliances",
+            "wrong_answers": ["Commune Free Alliance of Allied Powers", "Separatist Federation", "Fel Empire"]
+        },
+        {
+            "question": "What was the death toll of the Yuuzong Vong war?",
+            "correct_answer": "365 trillion",
+            "wrong_answers": ["Unknown", "157 million", "Extinction of the Neimoidian race."]
+        },
+        {
+            "question": "Who is Triclops?",
+            "correct_answer": "Palpatine's illigitimate son",
+            "wrong_answers": ["Anakin's true father", "Thrawn's brother", "Trusted advisor to Silo Biggs"]
+        },
+        {
+            "question": "Who replaced Micah Giiett on the Jedi high council after his death?",
+            "correct_answer": "Ki-Adi-Mundi",
+            "wrong_answers": ["Plo Koon", "Yaddle", "Savage Opress"]
+        },
+        {
+            "question": "What was the name of the sith holocron that Lorien Nod stole from the Jedi temple archives?",
+            "correct_answer": "Dark Holocron",
+            "wrong_answers": ["Sith Wayfinder", "Death Holocron", "Demorgian Ooze"]
+        },
+        {
+            "question": "What is the name of Chewbacca's nephew?",
+            "correct_answer": "Lobacca",
+            "wrong_answers": ["Tribacca", "Masbacca", "Senbacca"]
+        },
+        {
+            "question": "Which Rogue Squadron member would later become a Jedi master",
+            "correct_answer": "Corran Horn",
+            "wrong_answers": ["Megu Sestrum", "Hobbie Kilvan", "Wedge Antilles"]
+        },
+        {
+            "question": "After the events of the Yuuzong Vong war, where did Luke relocate the Jedi Praxeum?",
+            "correct_answer": "Ossus",
+            "wrong_answers": ["Tatooine", "Yavin 4", "Coruscant"]
+        },
+        {
+            "question": "Who eventually killed Jacen Solo?",
+            "correct_answer": "Jaina Solo",
+            "wrong_answers": ["Ben Skywalker", "Anakin Solo", "Luke Skywalker"]
         }
     ],
     "Science": [

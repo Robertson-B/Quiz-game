@@ -4,7 +4,6 @@ import read_json
 import intro
 import ask_questions
 import os
-import music
 import type
 import sys 
 
@@ -13,7 +12,6 @@ def main():
     file_path = 'questions.json'
     questions_dict = read_json.read_questions(file_path)
     player_name = intro.intro()
-    #music.main_music()
     play_game(questions_dict, player_name)
 
 

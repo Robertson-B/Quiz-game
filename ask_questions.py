@@ -3,10 +3,11 @@ import ask_catagory
 import type
 import threading
 import time
+import music
 
 output_lock = threading.Lock()
 max_score = 0
-
+music.stop_music()
 def ask_questions(questions_dict, player_name): # Asks the questions
     questions = questions_dict[ask_catagory.catagory]
     random.shuffle(questions)
@@ -38,7 +39,8 @@ def ask_questions(questions_dict, player_name): # Asks the questions
                 type.type(f'\u001b[33m{i + 1}) \u001b[34m{answer}') # This was fun to figure out how to do
 
         time_up = False
-        timer_thread = threading.Timer(20.0, timer)
+        timer_thread = threading.Timer(32, timer)
+        music.quiz_theme()
         timer_thread.start()
 
         while True: # Makes sure the input is valid
@@ -49,6 +51,7 @@ def ask_questions(questions_dict, player_name): # Asks the questions
                 break
             elif user_answer.isdigit() and 1 <= int(user_answer) <= len(answers):
                 timer_thread.cancel()
+                music.stop_music()
                 with output_lock:
                     print("\u001b[34m\u001b[0m", end="")
                 break
@@ -63,10 +66,12 @@ def ask_questions(questions_dict, player_name): # Asks the questions
             if not time_up and answers[int(user_answer) - 1] == correct_answer: # Because lists start at zero not one
                 score += 1
                 max_score += 1
+                music.correct_answer()
                 type.type('\n\u001b[32mCorrect!')
                 type.type("Your score is: " + str(score) + "/" + str(max_score) + "\n")
             elif not time_up:
                 max_score += 1
+                music.wrong_answer()
                 type.type('\n\u001b[31;1mWrong! The correct answer was: ' + str(correct_answer))
                 print("\u001b[34m\u001b[0m", end="")
                 type.type("\u001b[32mYour score is: " + str(score) + "/" + str(max_score) + "\n")
