@@ -1,9 +1,7 @@
 import type
 
 def ask_catagory(questions_dict):
-    global catagories
     catagories = {category: questions for category, questions in questions_dict.items()}
-    global catagory
     type.type("\u001b[32mPlease select a catagory:")
     print("\u001b[34m\u001b[0m", end="")
     for i, catagory_name in enumerate(catagories.keys(), 1):
@@ -16,4 +14,5 @@ def ask_catagory(questions_dict):
         else:
             type.type('Invalid input. Please enter a number between 1 and ' + str(len(catagories)))
             print("\u001b[34m\u001b[0m", end="")
-    catagory = list(catagories.keys())[int(user_input) - 1]
+    selected_catagory = list(catagories.keys())[int(user_input) - 1]
+    return selected_catagory
