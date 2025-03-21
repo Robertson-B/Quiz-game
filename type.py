@@ -2,7 +2,7 @@ import time
 import sys
 from terminaltexteffects.effects.effect_slide import Slide
 
-def type(text, delay=0.04):
+def type(text, delay=0.03):
     for char in text:
         time.sleep(delay)
         sys.stdout.write(char)

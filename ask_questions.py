@@ -3,6 +3,7 @@ import type
 import threading
 import time
 import music
+import leaderboard
 
 def ask_questions(questions_dict, player_name, selected_catagory):
     # Asks the questions
@@ -75,10 +76,5 @@ def ask_questions(questions_dict, player_name, selected_catagory):
                 type.type("\u001b[32mYour score is: " + str(score) + "/" + str(max_score) + "\n")
 
     with output_lock:
-        if score == len(questions):
-            type.type('Your final score is: ' + str(score) + "/" + str(len(questions)))
-            type.type(f'Congratulations {player_name}! You got all the questions right!\n\n\n\n')
-        else:
-            type.type('\nYour final score is: ' + str(score) + "/" + str(len(questions)))
-            type.type(f'Better luck next time {player_name}!\n\n\n\n')
+        leaderboard.update_leaderboard(player_name, score, selected_catagory, max_score)
         time.sleep(2)

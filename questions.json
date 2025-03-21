@@ -140,7 +140,7 @@
             "wrong_answers": ["Captain Rex", "Commander Cody", "Captain Thorn"]
         },
         {
-            "question": "Who is the true Sith?",
+            "question": "Who is the true Sith in this list?",
             "correct_answer": "Jar-Jar Binks",
             "wrong_answers": ["Kylo Ren", "Snoke", "Venamis"]
         },
@@ -513,6 +513,658 @@
             "question": "Which album holds the record for the longest time spent on the Billboard 200 chart?",
             "correct_answer": "The Dark Side of the Moon",
             "wrong_answers": ["Thriller", "Abbey road", "Rumours"]
+        }
+    ],
+    "The Ultimate Catagory":[
+        {
+            "question": "Who is known as the King of Pop?",
+            "correct_answer": "Michael Jackson",
+            "wrong_answers": ["Elvis Presley", "Prince", "Madonna"]
+        },
+        {
+            "question": "Who is the lead singer of the band Queen?",
+            "correct_answer": "Freddie Mercury",
+            "wrong_answers": ["Brian May", "Roger Taylor", "John Deacon"]
+        },
+        {
+            "question": "What is the best-selling album of all time?",
+            "correct_answer": "Thriller",
+            "wrong_answers": ["Back in Black", "The Dark Side of the Moon", "The Bodyguard"]
+        },
+        {
+            "question": "Who is known as the Queen of Soul?",
+            "correct_answer": "Aretha Franklin",
+            "wrong_answers": ["Whitney Houston", "Diana Ross", "Tina Turner"]
+        },
+        {
+            "question": "Who is the lead singer of the band U2?",
+            "correct_answer": "Bono",
+            "wrong_answers": ["The Edge", "Adam Clayton", "Larry Mullen Jr."]
+        },
+        {
+            "question": "What is the name of the first music video ever played on MTV?",
+            "correct_answer": "Video Killed the Radio Star",
+            "wrong_answers": ["Thriller", "Bohemian Rhapsody", "Billie Jean"]
+        },
+        {
+            "question": "Which composer's final symphony is often called the 'Jupiter' Symphony?",
+            "correct_answer": "Mozart",
+            "wrong_answers": ["Beethoven", "Bach", "Tchaikovsky"]
+        },
+        {
+            "question": "What is the name of the first album released by The Beatles?",
+            "correct_answer": "Please Please Me",
+            "wrong_answers": ["With the Beatles", "A Hard Day's Night", "Help!"]
+        },
+        {
+            "question": "Who is known as the Godfather of Soul?",
+            "correct_answer": "James Brown",
+            "wrong_answers": ["Ray Charles", "Otis Redding", "Sam Cooke"]
+        },
+        {
+            "question": "Which album holds the record for the longest time spent on the Billboard 200 chart?",
+            "correct_answer": "The Dark Side of the Moon",
+            "wrong_answers": ["Thriller", "Abbey road", "Rumours"]
+        },
+        {
+            "question": "Who directed 'Inception'?",
+            "correct_answer": "Christopher Nolan",
+            "wrong_answers": ["Steven Spielberg", "James Cameron", "Quentin Tarantino"]
+        },
+        {
+            "question": "Who played the Joker in 'The Dark Knight'?",
+            "correct_answer": "Heath Ledger",
+            "wrong_answers": ["Joaquin Phoenix", "Jack Nicholson", "Jared Leto"]
+        },
+        {
+            "question": "What is the highest-grossing film of all time?",
+            "correct_answer": "Avatar",
+            "wrong_answers": ["Titanic", "Avengers: Endgame", "Star Wars: The Force Awakens"]
+        },
+        {
+            "question": "Who played Forrest Gump?",
+            "correct_answer": "Tom Hanks",
+            "wrong_answers": ["Robin Williams", "Brad Pitt", "Leonardo DiCaprio"]
+        },
+        {
+            "question": "What year was the first 'Harry Potter' movie released?",
+            "correct_answer": "2001",
+            "wrong_answers": ["1999", "2002", "2003"]
+        },
+        {
+            "question": "In the lego Batman movie, which betting game did Batman give Joker advice about?",
+            "correct_answer": "Roulette",
+            "wrong_answers": ["Blackjack", "Poker", "Craps"]
+        },
+        {
+            "question": "Which film is famous for having an alternate ending where the villain wins, which was later scrapped due to studio pressure?",
+            "correct_answer": "Casablanca ",
+            "wrong_answers": ["Sunset Boulevard", "Psycho", "Double Indemnity"]
+        },
+        {
+            "question": "Which film was the first to reach $1 billion at the global box office?",
+            "correct_answer": "Titanic",
+            "wrong_answers": ["Jurassic Park", "The Lion King", "Star Wars: Episode I - The Phantom Menace"]
+        },
+        {
+            "question": "Who is the only person to have won Oscars for acting, directing, and writing?",
+            "correct_answer": "Orson Welles",
+            "wrong_answers": ["Charlie Chaplin", "Woody Allen", "Clint Eastwood"]   
+        },
+        {
+            "question": "What was the first film to be shot entirely in widescreen Cinemascope?",
+            "correct_answer": "The Robe",
+            "wrong_answers": ["Ben-Hur", "Lawrence of Arabia", "Gone with the Wind"]
+        },
+        {
+            "question": "In which language was the epic poem Beowulf originally written?",
+            "correct_answer": "Old English",
+            "wrong_answers": ["Norse", "Latin", "Greek"]
+        },
+        {
+            "question": "Who wrote '1984'?",
+            "correct_answer": "George Orwell",
+            "wrong_answers": ["Aldous Huxley", "Ray Bradbury", "J.R.R. Tolkien"]
+        },
+        {
+            "question": "Which Gothic novel includes a character named Gabriel Utterson as the main narrator?",
+            "correct_answer": "Strange Case of Dr Jekyll and Mr Hyde",
+            "wrong_answers": ["Frankenstein", "Dracula", "The Picture of Dorian Gray"]
+        },
+        {
+            "question": "What is the first book of the Bible?",
+            "correct_answer": "Genesis",
+            "wrong_answers": ["Exodus", "Leviticus", "Numbers"]
+        },
+        {
+            "question": "Who wrote 'Pride and Prejudice'?",
+            "correct_answer": "Jane Austen",
+            "wrong_answers": ["Charlotte Bronte", "Emily Bronte", "Mary Shelley"]
+        },
+        {
+            "question": "Which ancient text is considered the world's oldest surviving epic?",
+            "correct_answer": "The Epic of Gilgamesh",
+            "wrong_answers": ["The Iliad", "The Mahabharata", "The Aeneid"]
+        },
+        {
+            "question": "In Don Quixote, what is the name of the innkeeper's daughter who is mistakenly believed to be a noble lady?",
+            "correct_answer": "Maritornes",
+            "wrong_answers": ["Dulcinea", "Teresa Panza", "Antonia Quijana"]
+        },
+        {
+            "question": "Which novel features the secretive organization known as 'The Brotherhood'?",
+            "correct_answer": "1984",
+            "wrong_answers": ["Brave New World", "Fahrenheit 451", "Animal Farm"]
+        },
+        {
+            "question": "What novel is narrated by a character named Nick Carraway?",
+            "correct_answer": "The Great Gatsby",
+            "wrong_answers": ["To Kill a Mockingbird", "Catch-22", "Slaughterhouse-Five"]
+        },
+        {
+            "question": "Which Arthurian legend text first introduced the Holy Grail?",
+            "correct_answer": "Perceval, the Story of the Grail",
+            "wrong_answers": ["Le Morte d'Arthur", "The Once and Future King", "The Mabinogion"]
+        },
+        {
+            "question": "Who was the first President of the United States?",
+            "correct_answer": "George Washington",
+            "wrong_answers": ["Thomas Jefferson", "Abraham Lincoln", "John Adams"]
+        },
+        {
+            "question": "In which year did World War II end?",
+            "correct_answer": "1945",
+            "wrong_answers": ["1944", "1946", "1947"]
+        },
+        {
+            "question": "Who was the first man to step on the moon?",
+            "correct_answer": "Neil Armstrong",
+            "wrong_answers": ["Buzz Aldrin", "Yuri Gagarin", "Michael Collins"]
+        },
+        {
+            "question": "What ancient civilization built the pyramids?",
+            "correct_answer": "Egyptians",
+            "wrong_answers": ["Romans", "Greeks", "Mayans"]
+        },
+        {
+            "question": "Who was known as the Maid of Orleans?",
+            "correct_answer": "Joan of Arc",
+            "wrong_answers": ["Marie Antoinette", "Catherine the Great", "Elizabeth I"]
+        },
+        {
+            "question": "What was the Zimmermann Telegram, sent during World War I?",
+            "correct_answer": "A German proposal to Mexico to join the war against the U.S",
+            "wrong_answers": ["A British proposal to Germany to end the war", "A French proposal to Russia to end the war", "A Russian proposal to Japan to end the war"]
+        },
+        {
+            "question": "Who led the Haitian Revolution, defeating both the French and Spanish forces?",
+            "correct_answer": "Toussaint Louverture",
+            "wrong_answers": ["Jean-Jacques Dessalines", "Henri Christophe", "Alexandre Petion"]
+        },
+        {
+            "question": "Which battle during the Thirty Years War marked the decline of Habsburg power in Europe?",
+            "correct_answer": "The Battle of Breitenfeld (1631)",
+            "wrong_answers": ["The Battle of Rocroi (1643)", "The Battle of White Mountain (1620)", "The Battle of Lützen (1632)"]
+        },
+        {
+            "question": "Which medieval ruler issued the Capitulary of Quierzy, setting the foundation for hereditary feudal rights?",
+            "correct_answer": "Charles the Bald",
+            "wrong_answers": ["Charlemagne", "Louis the Pious", "Lothair I"]
+        },
+        {
+            "question": "Which empire was the first to implement a professional standing army?",
+            "correct_answer": "The Assyrian Empire",
+            "wrong_answers": ["The Roman Empire", "The Persian Empire", "The Macedonian Empire"]
+        },
+        {
+            "question": "What is the powerhouse of the cell?",
+            "correct_answer": "Mitochondria",
+            "wrong_answers": ["Nucleus", "Ribosome", "Golgi apparatus"]
+        },
+        {
+            "question": "What is the chemical symbol for gold?",
+            "correct_answer": "Au",
+            "wrong_answers": ["Ag", "Pb", "Fe"]
+        },
+        {
+            "question": "What planet is known as the Red Planet?",
+            "correct_answer": "Mars",
+            "wrong_answers": ["Venus", "Jupiter", "Saturn"]
+        },
+        {
+            "question": "What is the speed of light?",
+            "correct_answer": "299,792,458 meters per second",
+            "wrong_answers": ["150,000,000 meters per second", "1,000,000 meters per second", "300,000,000 meters per second"]
+        },
+        {
+            "question": "What gas do plants absorb from the atmosphere?",
+            "correct_answer": "Carbon Dioxide",
+            "wrong_answers": ["Oxygen", "Nitrogen", "Hydrogen"]
+        },
+        {
+            "question": "What is the only fundamental force that does not have a confirmed quantum particle?",
+            "correct_answer": "Gravity",
+            "wrong_answers": ["Electromagnetism", "Weak Nuclear Force", "Strong Nuclear Force"]
+        },
+        {
+            "question": "What is the smallest unit of matter?",
+            "correct_answer": "Quark",
+            "wrong_answers": ["Atom", "Molecule", "Electron"]
+        },
+        {
+            "question": "What is the largest organ in the human body?",
+            "correct_answer": "Skin",
+            "wrong_answers": ["Liver", "Heart", "Brain"]
+        },
+        {
+            "question": "What type of bond holds together the two strands of DNA?",
+            "correct_answer": "Hydrogen Bond",
+            "wrong_answers": ["Covalent Bond", "Ionic Bond", "Metallic Bond"]
+        },
+        {
+            "question": "What is the name of the hypothetical boundary around a black hole beyond which nothing can escape?",
+            "correct_answer": "Event Horizon",
+            "wrong_answers": ["Singularity", "Ergosphere", "Photon Sphere"]
+        },
+        {
+            "question": "In Star Wars, Who began the rule of two?",
+            "correct_answer": "Darth Bane",
+            "wrong_answers": ["Darth Vader", "Darth Sidious", "Darth Plagueis"]
+        },
+        {
+            "question": "In Star Wars, Who is the first Mandalorian Jedi?",
+            "correct_answer": "Tarre Vizsla",
+            "wrong_answers": ["Pre Vizla", "Sabine Wren", "Din Djarin"]
+        },
+        {
+            "question": "In Star Wars, What is the name of the entity trapped in the Maw?",
+            "correct_answer": "Abeloth",
+            "wrong_answers": ["The Father", "Darth Nihilus", "Exar Kun"]
+        },
+        {
+            "question": "In Star Wars, Who was the greatest tactician in the imperial navy?",
+            "correct_answer": "Grand Admiral Thrawn",
+            "wrong_answers": ["Grand Moff Tarkin", "Darth Vader", "Admiral Yularen"]
+        },
+        {
+            "question": "In Star Wars, Who was the secret apprentice of Darth Vader?",
+            "correct_answer": "Starkiller",
+            "wrong_answers": ["Asajj Ventress", "Ahsoka Tano", "Ezra Bridger"]
+        },
+        {
+            "question": "In Star Wars, Who was the 1st member of the Clone Force 99 to die?",
+            "correct_answer": "Tech",
+            "wrong_answers": ["Wrecker", "Crosshair", "Hunter"]
+        },
+        {
+            "question": "In Star Wars, Who was the commander of the Star Corps Company?",
+            "correct_answer": "Commander Bly",
+            "wrong_answers": ["Captain Rex", "Commander Cody", "Captain Thorn"]
+        },
+        {
+            "question": "In Star Wars, Who is the true Sith in this list?",
+            "correct_answer": "Jar-Jar Binks",
+            "wrong_answers": ["Kylo Ren", "Snoke", "Venamis"]
+        },
+        {
+            "question": "In Star Wars, Who are the extra-galactic species that invaded the star wars galaxy after the fall of the empire?",
+            "correct_answer": "The Youzhan Vong",
+            "wrong_answers": ["The Chiss", "The Ssi-Ruuk", "The Killiks"]
+        },
+        {
+            "question": "In Star Wars, What is the name of the assasin sent to kill luke that he ends up marrying?",  
+            "correct_answer": "Mara Jade",
+            "wrong_answers": ["Har Lee Tahno", "Mon Marnmo", "Kyoto Ken"]
+        },
+        {
+            "question": "In Star Wars, Who authored the sith code?",
+            "correct_answer": "Sorzus Syn",
+            "wrong_answers": ["Darth Bane", "Darth Revan", "Darth Malgus"]
+        },
+        {
+            "question": "In Star Wars, The Trandoshans have a bitter rivalry with which species?",
+            "correct_answer": "Wookies",
+            "wrong_answers": ["Humans", "Chiss", "Zabracks"]
+        },
+        {
+            "question": "In Star Wars, What is the full name of Jabba the Hutt?",
+            "correct_answer": "Jabba Desilijic Tiure",
+            "wrong_answers": ["Jabba Illip Oggurobb", "Jabba Injic Ar'duv", "Jabba Besadii Tai"]
+        },
+        {
+            "question": "In Star Wars, Which sith lord was the first to take the title of Darth?",
+            "correct_answer": "Darth Andeddu",
+            "wrong_answers": ["Darth Bane", "Darth Baras", "Darth Imor"]
+        },
+        {
+            "question": "In Star Wars, Who created the prophets of the dark side?",
+            "correct_answer": "Darth Millenial",
+            "wrong_answers": ["Darth Plagueis", "Darth Maul", "Darth Imor"]
+        },
+        {
+            "question": "In Star Wars, Which war lead the Yuuzhan Vong to become the technophobic conquerors they are known as now?",
+            "correct_answer": "The Silentium-Abominor War",
+            "wrong_answers": ["The Chagrian-Cathar War", "The Ithorian-Chiss War", "The Barabel-Killik War"]
+        },
+        {
+            "question": "In Star Wars, What was the title given to the head lightsaber instructor in the Jedi temple?",
+            "correct_answer": "Battlemaster",
+            "wrong_answers": ["Master of the Order", "Grandmaster", "Master of the Temple"]
+        },
+        {
+            "question": "In Star Wars, Chewbacca was murdured on what planet?",
+            "correct_answer": "Sernpidal",
+            "wrong_answers": ["Kashyyyk", "Endor", "Jakku"]
+        },
+        {
+            "question": "In Star Wars, What was Jacen Solo's sith title?",
+            "correct_answer": "Darth Caedus",
+            "wrong_answers": ["Darth Revan", "Darth Malak", "Darth Malgus"]
+        },
+        {
+            "question": "In Star Wars, Before the formation of the Imperial Remnent, which warlord faction had the largest military presence?",
+            "correct_answer": "Pentastar Alignment of Powers",
+            "wrong_answers": ["Emperor's Hand", "Zorbak the Hutt", "Greater Malrood"]
+        },
+        {
+            "question": "In Star Wars, Where did Luke rebuild the Jedi order?",
+            "correct_answer": "Yavin IV",
+            "wrong_answers": ["Coruscant", "Jakku", "Tatooine"]
+        },
+        {
+            "question": "In Star Wars, What replaced the corrupt, weak New Republic?",
+            "correct_answer": "Galactic Federation of Free Alliances",
+            "wrong_answers": ["Commune Free Alliance of Allied Powers", "Separatist Federation", "Fel Empire"]
+        },
+        {
+            "question": "In Star Wars, What was the death toll of the Yuuzong Vong war?",
+            "correct_answer": "365 trillion",
+            "wrong_answers": ["Unknown", "157 million", "Extinction of the Neimoidian race."]
+        },
+        {
+            "question": "In Star Wars, Who is Triclops?",
+            "correct_answer": "Palpatine's illigitimate son",
+            "wrong_answers": ["Anakin's true father", "Thrawn's brother", "Trusted advisor to Silo Biggs"]
+        },
+        {
+            "question": "In Star Wars, Who replaced Micah Giiett on the Jedi high council after his death?",
+            "correct_answer": "Ki-Adi-Mundi",
+            "wrong_answers": ["Plo Koon", "Yaddle", "Savage Opress"]
+        },
+        {
+            "question": "In Star Wars, What was the name of the sith holocron that Lorien Nod stole from the Jedi temple archives?",
+            "correct_answer": "Dark Holocron",
+            "wrong_answers": ["Sith Wayfinder", "Death Holocron", "Demorgian Ooze"]
+        },
+        {
+            "question": "In Star Wars, What is the name of Chewbacca's nephew?",
+            "correct_answer": "Lobacca",
+            "wrong_answers": ["Tribacca", "Masbacca", "Senbacca"]
+        },
+        {
+            "question": "In Star Wars, Which Rogue Squadron member would later become a Jedi master?",
+            "correct_answer": "Corran Horn",
+            "wrong_answers": ["Megu Sestrum", "Hobbie Kilvan", "Wedge Antilles"]
+        },
+        {
+            "question": "In Star Wars, After the events of the Yuuzong Vong war, where did Luke relocate the Jedi Praxeum?",
+            "correct_answer": "Ossus",
+            "wrong_answers": ["Tatooine", "Yavin 4", "Coruscant"]
+        },
+        {
+            "question": "In Star Wars, Who eventually killed Jacen Solo?",
+            "correct_answer": "Jaina Solo",
+            "wrong_answers": ["Ben Skywalker", "Anakin Solo", "Luke Skywalker"]
+        },
+        {
+            "question": "What is the capital of France?",
+            "correct_answer": "Paris",
+            "wrong_answers": ["London", "Berlin", "Madrid"]
+        },
+        {
+            "question": "Which planet is known as the Red Planet?",
+            "correct_answer": "Mars",
+            "wrong_answers": ["Venus", "Jupiter", "Saturn"]
+        },
+        {
+            "question": "Who wrote 'To Kill a Mockingbird'?",
+            "correct_answer": "Harper Lee",
+            "wrong_answers": ["J.D. Salinger", "Mark Twain", "F. Scott Fitzgerald"]
+        },
+        {
+            "question": "What is the largest ocean on Earth?",
+            "correct_answer": "Pacific Ocean",
+            "wrong_answers": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean"]
+        },
+        {
+            "question": "What is the smallest country in the world?",
+            "correct_answer": "Vatican City",
+            "wrong_answers": ["Monaco", "San Marino", "Liechtenstein"]
+        },
+        {
+            "question": "Who discovered gravity?",
+            "correct_answer": "Isaac Newton",
+            "wrong_answers": ["Albert Einstein", "Galileo Galilei", "Nikola Tesla"]
+        },
+        {
+            "question": "What is the hardest natural substance on Earth?",
+            "correct_answer": "Diamond",
+            "wrong_answers": ["Gold", "Iron", "Quartz"]
+        },
+        {
+            "question": "Which element has the chemical symbol 'O'?",
+            "correct_answer": "Oxygen",
+            "wrong_answers": ["Gold", "Osmium", "Oganesson"]
+        },
+        {
+            "question": "Who painted the Mona Lisa?",
+            "correct_answer": "Leonardo da Vinci",
+            "wrong_answers": ["Michelangelo", "Raphael", "Van Gogh"]
+        },
+        {
+            "question": "What is the currency of Japan?",
+            "correct_answer": "Yen",
+            "wrong_answers": ["Won", "Dollar", "Euro"]
+        },
+        {
+            "question": "Which is the longest river in the world?",
+            "correct_answer": "Nile River",
+            "wrong_answers": ["Amazon River", "Yangtze River", "Mississippi River"]
+        },
+        {
+            "question": "How many sides does a hexagon have?",
+            "correct_answer": "6",
+            "wrong_answers": ["5", "7", "8"]
+        },
+        {
+            "question": "What year did World War II end?",
+            "correct_answer": "1945",
+            "wrong_answers": ["1918", "1939", "1955"]
+        },
+        {
+            "question": "What is the boiling point of water in Celsius?",
+            "correct_answer": "100",
+            "wrong_answers": ["90", "110", "50"]
+        },
+        {
+            "question": "What is the national flower of Japan?",
+            "correct_answer": "Cherry Blossom",
+            "wrong_answers": ["Rose", "Lotus", "Lily"]
+        },
+        {
+            "question": "What is the largest mammal on Earth?",
+            "correct_answer": "Blue Whale",
+            "wrong_answers": ["Elephant", "Giraffe", "Hippopotamus"]
+        },
+        {
+            "question": "Which country is famous for inventing pizza?",
+            "correct_answer": "Italy",
+            "wrong_answers": ["France", "Greece", "Spain"]
+        },
+        {
+            "question": "How many legs does a spider have?",
+            "correct_answer": "8",
+            "wrong_answers": ["6", "10", "12"]
+        },
+        {
+            "question": "What is the tallest mountain in the world?",
+            "correct_answer": "Mount Everest",
+            "wrong_answers": ["K2", "Kangchenjunga", "Makalu"]
+        },
+        {
+            "question": "Which gas do plants use for photosynthesis?",
+            "correct_answer": "Carbon Dioxide",
+            "wrong_answers": ["Oxygen", "Nitrogen", "Hydrogen"]
+        },
+        {
+            "question": "Which is the most spoken language in the world?",
+            "correct_answer": "English",
+            "wrong_answers": ["Mandarin", "Spanish", "Hindi"]
+        },
+        {
+            "question": "What is the fastest land animal?",
+            "correct_answer": "Cheetah",
+            "wrong_answers": ["Lion", "Horse", "Gazelle"]
+        },
+        {
+            "question": "What is the main gas in Earth's atmosphere?",
+            "correct_answer": "Nitrogen",
+            "wrong_answers": ["Oxygen", "Carbon Dioxide", "Helium"]
+        },
+        {
+            "question": "Who invented the telephone?",
+            "correct_answer": "Alexander Graham Bell",
+            "wrong_answers": ["Thomas Edison", "Nikola Tesla", "Guglielmo Marconi"]
+        },
+        {
+            "question": "What is the name of the fairy in Peter Pan?",
+            "correct_answer": "Tinkerbell",
+            "wrong_answers": ["Wendy", "Fairy Godmother", "Pixie"]
+        },
+        {
+            "question": "What is the capital of Canada?",
+            "correct_answer": "Ottawa",
+            "wrong_answers": ["Toronto", "Vancouver", "Montreal"]
+        },
+        {
+            "question": "Which planet is known as the Red Planet?",
+            "correct_answer": "Mars",
+            "wrong_answers": ["Venus", "Jupiter", "Mercury"]
+        },
+        {
+            "question": "What is the largest mammal in the world?",
+            "correct_answer": "Blue Whale",
+            "wrong_answers": ["Elephant", "Giraffe", "Hippopotamus"]
+        },
+        {
+            "question": "Who wrote 'To Kill a Mockingbird'?",
+            "correct_answer": "Harper Lee",
+            "wrong_answers": ["Mark Twain", "J.K. Rowling", "George Orwell"]
+        },
+        {
+            "question": "What is the hardest natural substance on Earth?",
+            "correct_answer": "Diamond",
+            "wrong_answers": ["Gold", "Iron", "Quartz"]
+        },
+        {
+            "question": "What is the boiling point of water in Celsius?",
+            "correct_answer": "100",
+            "wrong_answers": ["90", "110", "120"]
+        },
+        {
+            "question": "Which ocean is the largest?",
+            "correct_answer": "Pacific Ocean",
+            "wrong_answers": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean"]
+        },
+        {
+            "question": "Who painted the Mona Lisa?",
+            "correct_answer": "Leonardo da Vinci",
+            "wrong_answers": ["Michelangelo", "Raphael", "Vincent van Gogh"]
+        },
+        {
+            "question": "How many sides does a hexagon have?",
+            "correct_answer": "6",
+            "wrong_answers": ["5", "7", "8"]
+        },
+        {
+            "question": "What is the capital of Australia?",
+            "correct_answer": "Canberra",
+            "wrong_answers": ["Sydney", "Melbourne", "Perth"]
+        },
+        {
+            "question": "What is the chemical symbol for gold?",
+            "correct_answer": "Au",
+            "wrong_answers": ["Ag", "Pb", "Fe"]
+        },
+        {
+            "question": "Who discovered gravity?",
+            "correct_answer": "Isaac Newton",
+            "wrong_answers": ["Albert Einstein", "Galileo Galilei", "Nikola Tesla"]
+        },
+        {
+            "question": "What is the national flower of Japan?",
+            "correct_answer": "Cherry Blossom",
+            "wrong_answers": ["Lotus", "Rose", "Orchid"]
+        },
+        {
+            "question": "What is the longest river in the world?",
+            "correct_answer": "Nile River",
+            "wrong_answers": ["Amazon River", "Yangtze River", "Mississippi River"]
+        },
+        {
+            "question": "What is the currency of the United Kingdom?",
+            "correct_answer": "Pound Sterling",
+            "wrong_answers": ["Euro", "Dollar", "Franc"]
+        },
+        {
+            "question": "Who invented the telephone?",
+            "correct_answer": "Alexander Graham Bell",
+            "wrong_answers": ["Thomas Edison", "Nikola Tesla", "Guglielmo Marconi"]
+        },
+        {
+            "question": "How many hearts does an octopus have?",
+            "correct_answer": "3",
+            "wrong_answers": ["1", "2", "4"]
+        },
+        {
+            "question": "Which planet is known for its rings?",
+            "correct_answer": "Saturn",
+            "wrong_answers": ["Jupiter", "Neptune", "Uranus"]
+        },
+        {
+            "question": "How many continents are there on Earth?",
+            "correct_answer": "7",
+            "wrong_answers": ["5", "6", "8"]
+        },
+        {
+            "question": "What is the capital of France?",
+            "correct_answer": "Paris",
+            "wrong_answers": ["London", "Berlin", "Rome"]
+        },
+        {
+            "question": "What is the largest island in the world?",
+            "correct_answer": "Greenland",
+            "wrong_answers": ["Australia", "Madagascar", "Borneo"]
+        },
+        {
+            "question": "What is the square root of 81?",
+            "correct_answer": "9",
+            "wrong_answers": ["8", "10", "11"]
+        },
+        {
+            "question": "Which metal is liquid at room temperature?",
+            "correct_answer": "Mercury",
+            "wrong_answers": ["Gold", "Silver", "Lead"]
+        },
+        {
+            "question": "What is the largest desert in the world?",
+            "correct_answer": "Antarctic Desert",
+            "wrong_answers": ["Sahara Desert", "Gobi Desert", "Kalahari Desert"]
+        },
+        {
+            "question": "Which Shakespeare play features the characters Rosencrantz and Guildenstern?",
+            "correct_answer": "Hamlet",
+            "wrong_answers": ["Macbeth", "Othello", "King Lear"]
         }
     ]
 }
