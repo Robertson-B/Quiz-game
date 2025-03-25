@@ -24,6 +24,7 @@ def ask_questions(questions_dict, player_name, selected_catagory):
             print("\u001b[34m\u001b[0m", end="")
             print("\u001b[32mThe correct answer was: " + str(correct_answer))
             print("\u001b[32mYour score is: " + str(score) + "/" + str(max_score) + "\n")
+            max_score += 1
 
     for question_data in questions:
         question = question_data['question']

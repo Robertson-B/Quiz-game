@@ -922,9 +922,9 @@
             "wrong_answers": ["London", "Berlin", "Madrid"]
         },
         {
-            "question": "Which planet is known as the Red Planet?",
-            "correct_answer": "Mars",
-            "wrong_answers": ["Venus", "Jupiter", "Saturn"]
+            "question": "In what year did the Berlin wall fall?",
+            "correct_answer": "1989",
+            "wrong_answers": ["1991", "1987", "1993"]
         },
         {
             "question": "Who wrote 'To Kill a Mockingbird'?",
