@@ -1,15 +1,15 @@
 import time
 import sys
-from terminaltexteffects.effects.effect_slide import Slide
+from terminaltexteffects.effects.effect_slide import Slide # Cool effect for typewriter input
 
-def type(text, delay=0.03):
+def type(text, delay=0.03): #Awesome typewriter effect to replace print
     for char in text:
         time.sleep(delay)
         sys.stdout.write(char)
         sys.stdout.flush()
     print("")
 
-def typewriter_input(prompt_text: str) -> str:
+def typewriter_input(prompt_text: str) -> str: # Typewriter input (apparently imposssible to create)
     effect = Slide(prompt_text)
     effect.effect_config.final_gradient_frames = 1
     # Makes the slide effect for input happen frame by frame

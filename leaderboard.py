@@ -2,9 +2,8 @@ import os
 import csv
 import type
 
-def update_leaderboard(player_name, score, category, max_score):
+def update_leaderboard(player_name, score, category, max_score): # Update the csv file with scores
     leaderboard_file = "leaderboard.csv"
-    highest_score_entry = None
     highest_score = -1  # Initialize with a value lower than any possible score
 
     # Check if the leaderboard file exists
@@ -21,7 +20,7 @@ def update_leaderboard(player_name, score, category, max_score):
                         highest_score = current_score
                         highest_score_entry = line
 
-    if highest_score_entry:
+    if highest_score_entry: # High score checker
         if score > highest_score:
             type.type(f"Congratulations {player_name}! You achieved a new high score in {category} with {score}/{max_score}!\n")
         elif score == highest_score:
@@ -31,9 +30,9 @@ def update_leaderboard(player_name, score, category, max_score):
     else:
         type.type(f"No previous high score in {category}. You set the first high score with {score}/{max_score}!\n")
 
-    new_entry = [player_name, f"{score}/{max_score}", category]
+    new_entry = [player_name, f"{score}/{max_score}", category] # Create a new entry for the leaderboard
 
     # Append the new entry to the leaderboard file
-    with open(leaderboard_file, "a", newline='') as file:
+    with open(leaderboard_file, "a", newline='') as file: # Append the new entry to the leaderboard file
         writer = csv.writer(file)
         writer.writerow(new_entry)
