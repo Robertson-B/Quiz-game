@@ -4,7 +4,7 @@ import os
 
 def play_again(): # loop to ask the user if they want to play again 
     game_loop = True
-    type.type("\u001b[32mDo you want to play again?")
+    type.type("\n\u001b[32mDo you want to play again?")
     type.type("\u001b[33m1) \u001b[34mYes")
     type.type("\u001b[33m2) \u001b[34mNo")
     sys.stdout.flush()

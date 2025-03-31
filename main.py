@@ -8,7 +8,7 @@ import play_again
 
 def main():
     file_path = 'questions.json' # file with questions
-    questions_dict = read_json.read_questions(file_path) # sovert json file to one massive dictonary for speed and simplicity
+    questions_dict = read_json.fetch_questions(file_path) # covert json file to one massive dictonary for speed and simplicity
     player_name = intro.intro() 
     game_loop = True
     while game_loop == True: # Main game loop
