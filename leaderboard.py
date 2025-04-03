@@ -26,7 +26,7 @@ def update_leaderboard(player_name, score, category, max_score):
         for line in reader:
             if len(line) < 3:
                 continue  # Skip invalid rows
-            existing_name, existing_score, existing_category = line
+            existing_name, existing_score, existing_category = line # Existing name need to be there for the other two to work
             if existing_category.strip().lower() == category.strip().lower():
                 try:
                     current_score = int(existing_score.split("/")[0])  # Extract the numeric score
