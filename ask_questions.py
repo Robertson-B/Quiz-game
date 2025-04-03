@@ -5,10 +5,10 @@ import time
 import music
 import leaderboard
 
-def ask_questions(questions_dict, player_name, selected_catagory):
+def ask_questions(questions_dict, player_name, selected_category):
     # Asks the questions
     output_lock = threading.Lock() # Output lock to prevent multiple threads from writing to the console at the same time
-    questions = questions_dict[selected_catagory]
+    questions = questions_dict[selected_category]
     random.shuffle(questions)
     score = 0
     max_score = 0
@@ -78,5 +78,5 @@ def ask_questions(questions_dict, player_name, selected_catagory):
                 type.type("\u001b[32mYour score is: " + str(score) + "/" + str(max_score) + "\n")
 
     with output_lock:
-        leaderboard.update_leaderboard(player_name, score, selected_catagory, max_score) # Stores score to a leaderboard csv file
+        leaderboard.update_leaderboard(player_name, score, selected_category, max_score) # Stores score to a leaderboard csv file
         time.sleep(2)
